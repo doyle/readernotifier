@@ -28,6 +28,9 @@
 		C7D8DE3F0AFAB7AA005782F4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
 		C7F2B5EC0B0A566100790961 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F2B5EB0B0A566100790961 /* Security.framework */; };
 		C7F2B64B0B0A5E8300790961 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F2B64A0B0A5E8300790961 /* Keychain.m */; };
+		FE46CFE710969C0B000AC615 /* fav_highunread.png in Resources */ = {isa = PBXBuildFile; fileRef = FE46CFE410969C0B000AC615 /* fav_highunread.png */; };
+		FE46CFE810969C0B000AC615 /* fav_nounread.png in Resources */ = {isa = PBXBuildFile; fileRef = FE46CFE510969C0B000AC615 /* fav_nounread.png */; };
+		FE46CFE910969C0B000AC615 /* fav_unread.png in Resources */ = {isa = PBXBuildFile; fileRef = FE46CFE610969C0B000AC615 /* fav_unread.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +88,9 @@
 		C7F2B5EB0B0A566100790961 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
 		C7F2B6490B0A5E8300790961 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
 		C7F2B64A0B0A5E8300790961 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		FE46CFE410969C0B000AC615 /* fav_highunread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_highunread.png; sourceTree = "<group>"; };
+		FE46CFE510969C0B000AC615 /* fav_nounread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_nounread.png; sourceTree = "<group>"; };
+		FE46CFE610969C0B000AC615 /* fav_unread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav_unread.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +171,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FE46CFE410969C0B000AC615 /* fav_highunread.png */,
+				FE46CFE510969C0B000AC615 /* fav_nounread.png */,
+				FE46CFE610969C0B000AC615 /* fav_unread.png */,
 				9A8BB4700DCA43F8003AD06B /* Localizable.strings */,
 				C7B3E2090DA900B400B29ECA /* bwerror.png */,
 				C74A91BD0C6C5D9E004BF883 /* nounreadalt.png */,
@@ -264,6 +273,9 @@
 				C74A91BE0C6C5D9E004BF883 /* nounreadalt.png in Resources */,
 				C7B3E20A0DA900B400B29ECA /* bwerror.png in Resources */,
 				9A8BB4730DCA43F8003AD06B /* Localizable.strings in Resources */,
+				FE46CFE710969C0B000AC615 /* fav_highunread.png in Resources */,
+				FE46CFE810969C0B000AC615 /* fav_nounread.png in Resources */,
+				FE46CFE910969C0B000AC615 /* fav_unread.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

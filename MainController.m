@@ -168,7 +168,11 @@
 	
 	highlightedImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"highunread" ofType:@"png"]];
 
-
+  if ([[prefs valueForKey:@"useColoredNoUnreadItemsIcon"] intValue] == 3) {
+    unreadItemsImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"fav_unread" ofType:@"png"]];
+    nounreadItemsImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"fav_nounread" ofType:@"png"]];
+    highlightedImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"fav_highunread" ofType:@"png"]];
+  }
 		
 	statusItem = [[[NSStatusBar systemStatusBar] statusItemWithLength:ourStatusItemWithLength] retain]; //NSVariableStatusItemLength] retain];
 	[statusItem setHighlightMode:YES];
